@@ -28,7 +28,7 @@ I will be using the spotify API to get the data and display it on my website.
 
 ![image](https://github.com/rehanhussa/Betterify/blob/main/Betterify.png)
 
-![image](myqdefault.jpg)
+![image](https://github.com/rehanhussa/Betterify/blob/main/mqdefault.jpg)
 
 ## Trello
 
