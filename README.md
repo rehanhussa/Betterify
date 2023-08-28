@@ -12,10 +12,10 @@ I will be using the spotify API to get the data and display it on my website.
 
 ![Node](https://img.shields.io/badge/-Node-05122A?style=flat&logo=node.js)
 ![MongooseDB](https://img.shields.io/badge/-MongoDB-05122A?style=flat&logo=mongodb)
-![Express] (https://img.shields.io/bade/-Express-05122A?style=flat&logo=express)
-![REACT] (https://img.shields.io/badge/-React-05122A?style=flat&logo=react)
-![JavaScript](https://img.shields.io/badge/-JavaScript-05122A?style=flat&logo=javascript)
-![GitHub](https://img.shields.io/github/license/:user/:repo)
+![Express.js] (https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
 ![Heroku](https://img.shields.io/badge/-Heroku-05122A?style=flat&logo=heroku)
 
 
@@ -26,14 +26,33 @@ I will be using the spotify API to get the data and display it on my website.
 
 ## Screenshots
 
-![image]()
+![image](https://github.com/rehanhussa/Betterify/blob/main/Betterify.png)
 
 ![image]()
 
+## Trello
 
+https://trello.com/b/ge0bcOvv/project-2-spotify-application
 
 ## Code Examples
 
+```app.get('/login', (req, res) => {
+    const state = generateRandomString(16);
+    res.cookie(stateKey, state);
+
+    const scope = 'user-read-private user-read-email';
+
+    const queryParams = querystring.stringify({
+        client_id: CLIENT_ID,
+        response_type: 'code',
+        redirect_uri: REDIRECT_URI,
+        state: state,
+        scope: scope
+    });
+
+    res.redirect(`https://accounts.spotify.com/authorize?${queryParams}`);
+});
+```
 
 
 ## Motivation
