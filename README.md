@@ -12,7 +12,7 @@ I will be using the spotify API to get the data and display it on my website.
 
 ![Node](https://img.shields.io/badge/-Node-05122A?style=flat&logo=node.js)
 ![MongooseDB](https://img.shields.io/badge/-MongoDB-05122A?style=flat&logo=mongodb)
-![Express.js] (https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)
+![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)
 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
 ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
 ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
@@ -28,7 +28,7 @@ I will be using the spotify API to get the data and display it on my website.
 
 ![image](https://github.com/rehanhussa/Betterify/blob/main/Betterify.png)
 
-![image]()
+![image](myqdefault.jpg)
 
 ## Trello
 
