@@ -4,7 +4,10 @@
   "description": "Tailwind CSS is integrated into the `create-next-app` CLI, which supports TypeScript and JavaScript, as well as the App Router (`app/`) and the pages directory `pages/`.",
   "main": "index.js",
   "scripts": {
-    "test": "nodemon index.js"
+    "start": "concurrently --kill-others \"npm run server\" \"npm run client\"",
+    "server": "nodemon index.js",
+    "client": "cd client && npm start",
+    "postinstall": "cd client && npm install"
   },
   "keywords": [],
   "author": "",
